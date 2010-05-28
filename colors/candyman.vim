@@ -9,7 +9,7 @@
 "
 " "A colorful, dark color scheme for Vim."
 "
-" File: jellybeans.vim
+" File: candyman.vim
 " Maintainer: NanoTech <http://nanotech.nanotechcorp.net/>
 " Version: 1.2
 " Last Change: May 26th, 2009
@@ -45,7 +45,7 @@ if exists("syntax_on")
 syntax reset
 endif
  
-let colors_name = "jellybeans"
+let colors_name = "candyman"
  
 if has("gui_running") || &t_Co == 88 || &t_Co == 256
 let s:low_color = 0
@@ -288,8 +288,8 @@ endfun
 " }}}
  
 if version >= 700
-  call s:X("CursorLine","","1c1c1c","","","")
-  call s:X("CursorColumn","","1c1c1c","","","")
+  call s:X("CursorLine","","5a5a5a","","","")
+  call s:X("CursorColumn","","5a5a5a","","","")
   call s:X("MatchParen","ffffff","80a090","bold","","")
  
   call s:X("TabLine","262626","b0b8c0","italic","","Black")
@@ -301,9 +301,9 @@ if version >= 700
   call s:X("PmenuSel","101010","eeeeee","","","")
 endif
  
-call s:X("Visual","","262626","","","")
-call s:X("Cursor","","b0d0f0","","","")
- 
+call s:X("Visual","","503d50","","","")
+call s:X("Cursor","","996699","","","")
+
 call s:X("Normal","e8e8d3","151515","","White","")
 call s:X("LineNr","605958","151515","none","Black","")
 call s:X("Comment","888888","","italic","Grey","")
@@ -328,10 +328,12 @@ call s:X("StringDelimiter","556633","","","DarkGreen","")
  
 call s:X("Identifier","c6b6ee","","","LightCyan","")
 call s:X("Structure","8fbfdc","","","LightCyan","")
-call s:X("Function","fad07a","","","Yellow","")
+call s:X("Function","DEB96C","","","Yellow","")
 call s:X("Statement","8197bf","","","DarkBlue","")
 call s:X("PreProc","8fbfdc","","","LightBlue","")
- 
+
+call s:X("Test","8fbfdc","","","LightBlue","")
+
 hi link Operator Normal
  
 call s:X("Type","ffb964","","","Yellow","")
@@ -343,8 +345,7 @@ call s:X("Search","f0a0c0","302028","underline","Magenta","")
  
 call s:X("Directory","dad085","","","","")
 call s:X("ErrorMsg","","902020","","","")
-hi link Error ErrorMsg
- 
+
 " Diff
  
 hi link diffRemoved Constant
@@ -389,7 +390,9 @@ call s:X("rubyRegexp","dd0093","","","DarkMagenta","")
 call s:X("rubyRegexpSpecial","a40073","","","Magenta","")
  
 call s:X("rubyPredefinedIdentifier","de5577","","","Red","")
- 
+
+
+
 " JavaScript
 hi link javaScriptValue Constant
 hi link javaScriptRegexpString rubyRegexp
