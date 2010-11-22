@@ -300,18 +300,18 @@ if version >= 700
   call s:X("Pmenu","ffffff","262626","","","")
   call s:X("PmenuSel","101010","eeeeee","","","")
 endif
- 
+
 call s:X("Visual","","503d50","","","")
 call s:X("Cursor","","996699","","","")
 
 call s:X("Normal","e8e8d3","151515","","White","")
 call s:X("LineNr","605958","151515","none","Black","")
 call s:X("Comment","888888","","italic","Grey","")
-call s:X("Todo","808080","","bold","","")
+call s:X("Todo","8a3c3b","","bold","","")
  
-call s:X("StatusLine","f0f0f0","101010","italic","","")
-call s:X("StatusLineNC","a0a0a0","262626","italic","","")
-call s:X("VertSplit","262626","262626","italic","","")
+call s:X("StatusLine","f0f0f0","393f47","italic","","")
+call s:X("StatusLineNC","484848","1a1f26","italic","","")
+call s:X("VertSplit","393f47","393f47","italic","","")
  
 call s:X("Folded","a0a8b0","384048","italic","black","")
 call s:X("FoldColumn","a0a8b0","384048","","","")
@@ -327,8 +327,8 @@ call s:X("String","99ad6a","","","Green","")
 call s:X("StringDelimiter","556633","","","DarkGreen","")
  
 call s:X("Identifier","c6b6ee","","","LightCyan","")
-call s:X("Structure","8fbfdc","","","LightCyan","")
-call s:X("Function","DEB96C","","","Yellow","")
+call s:X("Structure","79a5bf","","","LightCyan","")
+call s:X("Function","be9f5f","","","Yellow","")
 call s:X("Statement","8197bf","","","DarkBlue","")
 call s:X("PreProc","8fbfdc","","","LightBlue","")
 
@@ -336,7 +336,7 @@ call s:X("Test","8fbfdc","","","LightBlue","")
 
 hi link Operator Normal
  
-call s:X("Type","ffb964","","","Yellow","")
+call s:X("Type","d8a465","","","Yellow","")
 call s:X("NonText","808080","151515","","","")
  
 call s:X("SpecialKey","808080","343434","","","")
